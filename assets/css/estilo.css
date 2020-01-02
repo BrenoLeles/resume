@@ -1,0 +1,38 @@
+/*
+*   Breno Leles
+*   Full Stack PHP Developer
+*/
+
+/*ESTILOS GERAIS*/
+body div {
+    position: relative;
+}
+
+/*CORPO DO SITE*/
+.corpo-site {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+
+/*MENU LATERAL*/
+.corpo-site .menu-principal {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.logo-menu-lateral {
+    padding: 70px;
+}
+.logo-menu-lateral img {
+    border-radius: 50%;
+    border: solid 2px #efefef;}
+
+/*CORPO SITE*/
+.corpo-site .conteudo {
+    width: 80%;
+    float: left;
+    height: 100vh;
+    overflow-y: scroll;
+}

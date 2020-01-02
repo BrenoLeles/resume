@@ -1,28 +1,52 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Breno Leles</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-</head>
-<body>
+<?php include ('header.php') ?>
+<div class="corpo-site">
 
-
-<div class="container">
-    <div class="content">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>teste</h1>
-            </div>
-        </div>
-    </div>
 </div>
-</body>
-<sript type="text/javascript" src="assets/js/jquery.min.js"></sript>
-<sript type="text/javascript" src="assets/js/core.js"></sript>
-<sript type="text/javascript" src="assets/js/bootstrap.min.js"></sript>
+<div class="corpo-site">
 
-</html>
+    <aside class="menu-principal">
+        <div class="logo-menu-lateral">
+            <img src="images/logos/temporario.png" alt="Breno Leles Logo" class="img-fluid">
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="javascript:k.show(0);">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:k.show(1);">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:k.show(2);">Portfólio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:k.show(3);">Notícias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:k.show(4);">Contato</a>
+            </li>
+        </ul>
+    </aside>
+    <article class="conteudo kontext">
+        <div class="layer one show">
+            <?php include('pages/inicio.php') ?>
+        </div>
+        <div class="layer two">
+            <h2>Layer Two</h2>
+        </div>
+        <div class="layer three">
+            <h2>Layer Three</h2>
+        </div>
+        <div class="layer two">
+            <h2>Layer Three</h2>
+        </div>
+        <div class="layer three">
+            <h2>Layer Three</h2>
+        </div>
+
+    </article>
+</div>
+
+<ul class="bullets"></ul>
+
+<?php include ('footer.php') ?>
