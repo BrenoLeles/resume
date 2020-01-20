@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="titulo-secao">
-                    <h3>Habilidades</h3>
+                    <h3>Serviços</h3>
                 </div>
             </div>
         </div>
